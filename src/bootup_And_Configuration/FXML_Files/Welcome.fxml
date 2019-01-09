@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="welcome" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bootup_And_Configuration.Java_Cts.Welcome">
+   <children>
+      <AnchorPane onMouseClicked="#Load_Game_Profile_Configuration" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="194.0" layoutY="14.0" text="Virtual Hand Cricket" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="clickToContinue" layoutX="232.0" layoutY="173.0" text="Click to Continue">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
